@@ -20,7 +20,7 @@ These policies are synced automatically to relevant repositories via GitHub Acti
 - [SENSITIVE-LOCAL-DATA.md](SENSITIVE-LOCAL-DATA.md): Sensitive/proprietary data must live outside repo working trees (`.gitignore` is not a security boundary). Repos cite it specifically in role prompts/ADRs.
 - [LICENSE.md](LICENSE.md): Licensing notice for these policy documents.
 - [CONTRIBUTING.md](CONTRIBUTING.md): How to propose changes to policies.
-- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md): Expected behavior in our communities.
+- [CODE-OF-CONDUCT.md](CODE-OF-CONDUCT.md): Expected behavior in our communities.
 - [SECURITY.md](SECURITY.md): Reporting security issues.
 - [SUPPORT.md](SUPPORT.md): Getting help and support resources.
 - [CHANGELOG.md](CHANGELOG.md): History of policy updates.
