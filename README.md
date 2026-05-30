@@ -1,12 +1,16 @@
 # 3 Leaps OSS Policies Repository
 
-This repository (`oss-policies`) serves as the central source of truth for policies governing 3 Leaps (https://3leaps.net) and our actively maintained open-source organizations, including:
+This repository (`oss-policies`) is the central source of truth for the policies governing the open-source work of [3 Leaps, LLC](https://3leaps.net). These policies apply to **all repository organizations owned and/or substantially supported by 3 Leaps, LLC**. The current organizations include:
 
 - [fulmenhq](https://github.com/fulmenhq)
 - [mdmeld](https://github.com/mdmeld)
 - [docemist](https://github.com/docemist)
+- [namelens](https://github.com/namelens)
+- [verilis](https://github.com/verilis)
+- [enacthq](https://github.com/enacthq)
+- [lanytehq](https://github.com/lanytehq)
 
-These policies are synced automatically to relevant repositories via GitHub Actions to ensure consistency across our ecosystem.
+This list is illustrative, not exhaustive — the policies apply to any such organization whether or not it is named above. These policies are synced automatically to relevant repositories via GitHub Actions to ensure consistency across our ecosystem.
 
 ## Purpose
 
