@@ -18,17 +18,34 @@ This list is illustrative, not exhaustive — the policies apply to any such org
 - **Automated Syncing**: Changes are pushed to downstream repos in our maintained orgs. We actively support these OSS projects through funding, consulting, and maintenance as part of our community work, and these policies apply collaboratively to ensure fair and consistent governance.
 - **Scope**: Covers trademarks, contributions, code of conduct, and more for our consulting-driven OSS projects.
 
-## Key Documents
+## Policies
 
-- [TRADEMARK-POLICY.md](TRADEMARK-POLICY.md): Rules for using 3 Leaps trademarks in OSS work.
-- [SENSITIVE-LOCAL-DATA.md](SENSITIVE-LOCAL-DATA.md): Sensitive/proprietary data must live outside repo working trees (`.gitignore` is not a security boundary). Repos cite it specifically in role prompts/ADRs.
-- [LICENSE.md](LICENSE.md): Licensing notice for these policy documents.
-- [CONTRIBUTING.md](CONTRIBUTING.md): How to propose changes to policies.
-- [CODE-OF-CONDUCT.md](CODE-OF-CONDUCT.md): Expected behavior in our communities.
-- [SECURITY.md](SECURITY.md): Reporting security issues.
-- [SUPPORT.md](SUPPORT.md): Getting help and support resources.
-- [CHANGELOG.md](CHANGELOG.md): History of policy updates.
+The governing documents. Repos conform by citing the relevant policy specifically
+in their role prompts/ADRs (not a generic "follow all policies" line). This set
+grows as governance needs evolve — propose additions via [CONTRIBUTING.md](CONTRIBUTING.md).
+
+| Policy | Scope |
+|---|---|
+| [Trademark Policy](TRADEMARK-POLICY.md) | Using 3 Leaps marks and names in OSS work |
+| [Sensitive Local Data](SENSITIVE-LOCAL-DATA.md) | Keeping proprietary/identifying material out of repo surfaces (`.gitignore` is not a security boundary) |
+
+## Governance & community health
+
+| Document | Purpose |
+|---|---|
+| [Code of Conduct](CODE-OF-CONDUCT.md) | Expected behavior in our communities |
+| [Security Policy](SECURITY.md) | Reporting security issues (public keys in [`keys/`](keys/)) |
+| [Contributing](CONTRIBUTING.md) | How to propose changes to these documents |
+| [Support](SUPPORT.md) | Getting help and support resources |
+| [License](LICENSE.md) | Licensing of these documents |
+
+## Meta & templates
+
+| Item | Purpose |
+|---|---|
+| [Changelog](CHANGELOG.md) | History of updates |
+| [.github/](.github/) | Shared issue/PR templates synced across the ecosystem |
 
 For questions or suggestions, open an issue in this repo. Contributions welcome—see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Last updated: [2025-08-04]
+Last updated: 2026-06-28
