@@ -27,6 +27,11 @@ It is our policy to:
   of the repository entirely. It is not sufficient to `.gitignore` a
   proprietary file — any such artifact is maintained outside the repository's
   folder space, so that it cannot be committed by accident.
+- **Treat all durable surfaces as permanent, not just files.** Commit messages,
+  pull-request titles and descriptions, and branch names become permanent,
+  world-readable history that cannot be reliably rewritten after the fact. We
+  keep proprietary and identifying material out of every such surface, not only
+  the working tree.
 
 It is acceptable to reference required external information by location: use
 environment variables or the other mechanisms described in our CI/CD and
@@ -71,4 +76,4 @@ and is distinct from, secrets/credential scanning and regulated-PII handling.
 
 ---
 
-_Canonical policy. Repos link here rather than copying. Last updated: 2026-05-30._
+_Canonical policy. Repos link here rather than copying. Last updated: 2026-06-27._
