@@ -44,7 +44,7 @@ grows as governance needs evolve — propose additions via [CONTRIBUTING.md](CON
 | Item | Purpose |
 |---|---|
 | [Changelog](CHANGELOG.md) | History of updates |
-| [.github/](.github/) | Shared issue/PR templates synced across the ecosystem |
+| [GitHub templates](.github/TEMPLATES.md) | Shared issue/PR templates synced across the ecosystem ([`.github/`](.github/)) |
 
 For questions or suggestions, open an issue in this repo. Contributions welcome—see [CONTRIBUTING.md](CONTRIBUTING.md).
 
