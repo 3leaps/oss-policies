@@ -6,7 +6,7 @@ This repository (`oss-policies`) is the central source of truth for the policies
 - [mdmeld](https://github.com/mdmeld)
 - [docemist](https://github.com/docemist)
 - [namelens](https://github.com/namelens)
-- [verilis](https://github.com/verilis)
+- [verilishq](https://github.com/verilishq)
 - [enacthq](https://github.com/enacthq)
 - [lanytehq](https://github.com/lanytehq)
 
