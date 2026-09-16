@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Changed
+
+- SECURITY.md: encrypt reports to the committed public cert (UID `infosec@3leaps.net`); SMTP remains `security@3leaps.net`.
+- keys/3leaps-oss-security-public.asc: replacement public certificate.
+
 ### Added
 
 - SENSITIVE-LOCAL-DATA.md: Canonical policy for keeping proprietary/user data out of OSS repositories — sensitive material lives outside the repository tree (`.gitignore` is a convenience filter, not a security boundary); reference external files by location; `.env` holds secrets by reference. Repos conform by declaring conformance and recording the rule as a principle in their ADRs/role prompts.
