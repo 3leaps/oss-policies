@@ -18,7 +18,7 @@ If you discover a potential security vulnerability, please report it privatelyâ€
   - Potential impact (e.g., data exposure, denial of service).
   - Any proposed fixes or patches.
 - **Alternative**: Use GitHub Security Advisories in the affected repository (if enabled) for private reporting.
-- **Encryption**: If sensitive, encrypt your report using our public PGP key (available upon request).
+- **Encryption**: Mail **security@3leaps.net**. If the report is sensitive, encrypt to the public cert in [`keys/3leaps-oss-security-public.asc`](keys/3leaps-oss-security-public.asc) (OpenPGP UID `infosec@3leaps.net`). Do not send plaintext secrets.
 
 We prioritize confidentiality and will acknowledge your report within 3 business days.
 
@@ -35,4 +35,4 @@ If you follow this policy in good faith (e.g., no exploitation beyond proof-of-c
 ## Questions
 For questions about this policy, contact security@3leaps.net or open a non-security issue in this repo.
 
-_This policy is subject to change. Last updated: 2025-08-04._
+_This policy is subject to change. Last updated: 2026-09-16._

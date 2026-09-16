@@ -1,14 +1,15 @@
 # Public Keys Directory
 
-This directory contains public cryptographic keys for secure communications with 3 Leaps.
+Public cert for encrypted mail to 3 Leaps. Vulnerability reports go to
+**security@3leaps.net** ([SECURITY.md](../SECURITY.md)). Encrypt to this
+file; the OpenPGP UID is `infosec@3leaps.net`.
 
-## Available Keys (as of v1.0.1)
-- `3leaps-oss-security-public.asc` - PGP public key for security-related communications
+## Files
+
+- `3leaps-oss-security-public.asc` — OpenPGP public certificate
 
 ## Usage
-To import our PGP key:
+
 ```bash
 gpg --import 3leaps-oss-security-public.asc
 ```
-
-For more information about reporting security issues, see [SECURITY.md](../SECURITY.md).
